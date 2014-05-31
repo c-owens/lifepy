@@ -1,0 +1,18 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+/tmp
+
+#python specific
+*.pyc
+
+## tree specific
+/install
+/config.yml
+.vagrant
+/cookbooks
+*.sublime-workspace
+*/__pycache__
