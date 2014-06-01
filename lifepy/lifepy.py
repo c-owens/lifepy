@@ -1,11 +1,13 @@
 __author__ = 'cody.owens@gmail.com'
-import pygame
 import logging
-import colors
 
+import pygame
+
+import colors
 from view.gameport import GamePort
 from gamecontext import GameContext
 from view.viewcontext import ViewContext
+
 
 class App:
     _framerate = 60
@@ -35,7 +37,6 @@ class App:
 
         clock = pygame.time.Clock()
         displaySurface = pygame.display.set_mode( self.size, pygame.HWSURFACE | pygame.DOUBLEBUF )
-        #cells = [[0 for x in xrange(5)] for x in xrange(5)]
         cells = []
         logger = self.init_logger()
 
