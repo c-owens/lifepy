@@ -1,8 +1,6 @@
 __author__ = 'cody.owens@gmail.com'
 import logging
-
 import pygame
-
 import colors
 from view.gameport import GamePort
 from gamecontext import GameContext

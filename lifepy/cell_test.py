@@ -1,6 +1,6 @@
+__author__ = 'cody.owens@gmail.com'
 from unittest import TestCase
 from cell import Cell
-__author__ = 'cody.owens@gmail.com'
 
 class TestCell(TestCase):
     _cell = None
