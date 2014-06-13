@@ -18,7 +18,7 @@ class GamePort(ViewPort):
         assert viewContext.width == viewContext.height
         ViewPort.__init__(self, viewContext)
         self.gameContext = gameContext
-        #self.cover = pygame.Surface((viewContext.width, viewContext.height))
+        self.cover = pygame.Surface((viewContext.width, viewContext.height))
         self.font = pygame.font.SysFont("Droid Sans Mono Slashed", 30)
 
     def init_board(self):
