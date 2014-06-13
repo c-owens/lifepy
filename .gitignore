@@ -16,3 +16,4 @@
 /cookbooks
 *.sublime-workspace
 */__pycache__
+/.idea
